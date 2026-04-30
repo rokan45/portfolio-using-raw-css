@@ -21,7 +21,7 @@
   [data-theme="light"] {
     --bg:        #f4f6fb;
     --bg2:       #eaecf4;
-    --bg3:       #dde0ef;
+    --bg3:       #c4c9e3;
     --line:      rgba(0,0,0,.08);
     --accent:    #059669;
     --accent2:   #4f46e5;
@@ -309,8 +309,8 @@
     opacity:.06; letter-spacing:-.05em; user-select:none;
   }
   .project-thumb .thumb-icon {
-    position:absolute; font-size:2.5rem;
-  }
+    position:absolute; font-size:5.5rem;
+  } 
   .project-overlay {
     position:absolute; inset:0; background:rgba(10,10,15,.7);
     display:flex; align-items:center; justify-content:center; gap:1rem;
