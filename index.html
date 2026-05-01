@@ -445,14 +445,7 @@
     });
 
     // Custom cursor
-    const cursor = document.getElementById('cursor');
-    const ring = document.getElementById('cursor-ring');
-    document.addEventListener('mousemove', e => {
-      cursor.style.left = e.clientX + 'px';
-      cursor.style.top = e.clientY + 'px';
-      ring.style.left = e.clientX + 'px';
-      ring.style.top = e.clientY + 'px';
-    });
+   
     document.querySelectorAll('a,button,.project-card,.skill-group').forEach(el => {
       el.addEventListener('mouseenter', () => {
         cursor.style.width = '20px'; cursor.style.height = '20px';
